@@ -8,14 +8,7 @@
     border-radius: em(25px, 15px);
     padding: em(40px, 15px) em(23px, 15px);
 
-    &--default {
-        display: none;
-    }
-
     &--submit {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
         text-align: center;
     }
 
@@ -61,7 +54,12 @@
         margin-bottom: 1em;
     }
 
+    &__img {
+        margin: 0 auto;
+    }
+
     &__info {
+        display: inline-block;
         margin-top: 2em;
         background-color: $bg-transparent;
         padding: em(10px, 15px) 1em;
