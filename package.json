@@ -1,0 +1,23 @@
+{
+  "name": "rating-component",
+  "version": "1.0.0",
+  "description": "A challenge to build an interactive rating component from Frontendmentor.io",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch scss/app.scss:css/index.css",
+    "prod": "sass --style=compressed scss/app.scss:css/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robinjmm/rating-component.git"
+  },
+  "author": "robinjmm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robinjmm/rating-component/issues"
+  },
+  "homepage": "https://github.com/robinjmm/rating-component#readme",
+  "devDependencies": {
+    "sass": "^1.51.0"
+  }
+}
