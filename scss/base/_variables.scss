@@ -1,0 +1,37 @@
+// Colors
+$text-color: hsl(217, 12%, 63%);
+$text-accent-white: hsl(0, 0%, 100%);
+$text-accent-orange: hsl(25, 97%, 53%);
+
+
+$bg-main: hsl(216, 12%, 8%);
+$bg-card: hsl(215, 23%, 14%);
+$bg-grey: hsl(216, 12%, 54%);
+$bg-accent: hsl(25, 97%, 53%);
+$bg-white: hsl(0, 0%, 100%);
+
+$bg-transparent: hsla(216, 12%, 54%, 0.1);
+
+
+// Fonts
+$base-font-size: 16px;
+$ff-primary: 'Overpass', sans-serif;
+
+
+$fw-normal: 400;
+$fw-bold: 700;
+
+
+// Functions
+@function rem($value) {
+    $remValue: calc(($value / $base-font-size) * 1rem);
+    @return $remValue;
+}
+
+
+// $value is the desired size
+// $base is font-size of the parent
+@function em($value, $base) {
+    $emValue: calc(($value / $base) * 1em);
+    @return $emValue;
+}
