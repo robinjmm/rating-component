@@ -7,7 +7,7 @@
 ## About
 This is my solution for the challenge of building an interactive rating component from [Frontendmentor.io](https://www.frontendmentor.io)
 
-This is my first challenge solution that involves the use of JavaScript. I had a lot fun figuring out how to display and hide two different contents on the same card component. Thankfully, I didn't have to use any complex logic to complete the challenge. This served as a perfect challenge to practice my beginner JavaScript skills. Hopefully, it's only the first of many.
+This is my first challenge solution that involves the use of JavaScript. I had a lot fun figuring out how to display and hide two different contents on the same card component. Thankfully, I didn't have to use any complex logic to complete the challenge. It's a great way to practice my beginner JavaScript skills. Hopefully, it's only the first of many.
 
 **Any feedback on how to improve my solution would be greatly appreciated**. 😊
 ## User Stories
