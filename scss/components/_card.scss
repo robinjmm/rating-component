@@ -6,10 +6,17 @@
     max-width: 405px;
     margin: 0 auto;
     border-radius: em(25px, 15px);
-    padding: em(30px, 15px) em(23px, 15px);
+    padding: em(40px, 15px) em(23px, 15px);
+
+    &--default {
+        display: none;
+    }
 
     &--submit {
-        display: none;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
     }
 
     &__bubble {
@@ -52,5 +59,13 @@
         justify-content: space-between;
         margin-top: 2em;
         margin-bottom: 1em;
+    }
+
+    &__info {
+        margin-top: 2em;
+        background-color: $bg-transparent;
+        padding: em(10px, 15px) 1em;
+        color: $text-accent-orange;
+        border-radius: em(20px, 15px);
     }
 }
