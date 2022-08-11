@@ -2,14 +2,13 @@
 ![](assets/images/solution-screenshot.png)
 ## Links
 - [Challenge Link](https://www.frontendmentor.io/challenges/interactive-rating-component-koxpeBUmI)
-- [Site Preview](https://robinjmm-rating-component.netlify.app/)
+- [Site Preview](https://robinjmm-rating-component.vercel.app/)
 
 ## About
 This is my solution for the challenge of building an interactive rating component from [Frontendmentor.io](https://www.frontendmentor.io)
 
 This is my first challenge solution that involves the use of JavaScript. I had a lot fun figuring out how to display and hide two different contents on the same card component. Thankfully, I didn't have to use any complex logic to complete the challenge. It's a great way to practice my beginner JavaScript skills. Hopefully, it's only the first of many.
 
-**Any feedback on how to improve my solution would be greatly appreciated**. 😊
 ## User Stories
 The user should be able to:
 - Select and submit a number rating
@@ -18,7 +17,7 @@ The user should be able to:
 - See hover states for all interactive elements on the page
 
 ## Built With
-- Semantic HTML5
+- HTML5
 - CSS3
 - Flexbox
 - Sass
