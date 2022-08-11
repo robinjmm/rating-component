@@ -1,7 +1,8 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 body {
-    padding: rem(70px) 0;
+    // padding: rem(70px) 0;
+    padding: 5vh 0;
     font-size: rem(15px);
     width: 100%;
     font-family: $ff-primary;
@@ -9,8 +10,13 @@ body {
     color: $text-color;
 
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+main {
+    margin-bottom: rem(60px);
 }
 
 .hidden {

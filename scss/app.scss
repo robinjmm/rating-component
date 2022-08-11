@@ -1,9 +1,15 @@
-@use 'base/reset';
+@use "base/reset";
 
-@use 'base/defaults';
+@use "base/defaults";
 
-@use 'components/card';
+@use "components/card";
 
-@use 'components/button';
+@use "components/button";
 
-@use 'layout/layout';
+@use "components/link-icons";
+
+@use "fontawesome/fontawesome";
+
+@use "fontawesome/brands";
+
+@use "layout/layout";
