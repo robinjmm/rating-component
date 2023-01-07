@@ -1,24 +1,16 @@
-@use '../base/variables' as *;
+@use "../base/variables" as *;
 
 .button {
-    background-color: $bg-accent;
+    background-color: var(--bg-button);
     border: none;
     display: block;
     width: 100%;
-    margin-top: em(25px, 15px);
-    padding: rem(16px) 0;
+    margin-top: toEm(25px, 15px);
+    padding: toEm(15px, 15px) 0;
     border-radius: 2em;
     text-transform: uppercase;
-    color: $text-accent-white;
-    font-weight: $fw-bold;
+    color: var(--text-accent-white);
+    font-weight: var(--fw-bold);
     letter-spacing: 3px;
     transition: background-color 0.3s ease-in, color 0.3s ease-in;
-
-    &:hover,
-    &:focus,
-    &:active {
-        cursor: pointer;
-        background-color: $bg-white;
-        color: $text-accent-orange;
-    }
 }

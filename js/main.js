@@ -1,8 +1,8 @@
-const button = document.querySelector(".button");
-const rating = document.querySelector(".card__rating");
-const cardDefault = document.querySelector(".card--default");
-const cardSubmit = document.querySelector(".card--submit");
-const cardInfo = document.querySelector(".card__info");
+const button = document.querySelector(".js-button");
+const rating = document.querySelector(".js-card__rating");
+const cardDefault = document.querySelector(".js-card--default");
+const cardSubmit = document.querySelector(".js-card-submit");
+const cardInfo = document.querySelector(".js-card__info");
 
 let userRating = 0;
 
@@ -11,7 +11,6 @@ rating.addEventListener("click", function (event) {
 
     if (event.target.nodeName === "BUTTON") {
         userRating = event.target.textContent
-        console.log(userRating);
     }
 })
 

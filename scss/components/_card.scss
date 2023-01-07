@@ -1,19 +1,20 @@
 @use '../base/variables' as *;
 
 .card {
-    background-color: $bg-card;
-    width: 90%;
+    background-color: var(--bg-card);
+    width: 325px;
     max-width: 405px;
     margin: 0 auto;
-    border-radius: em(25px, 15px);
-    padding: em(40px, 15px) em(23px, 15px);
+    border-radius: toEm(25px, 15px);
+    padding: toEm(30px, 15px) toEm(22px, 15px);
+	line-height: 1.5;
 
     &--submit {
         text-align: center;
     }
 
     &__bubble {
-        background-color: $bg-transparent;
+        background-color: var(--bg-ratings);
         width: 45px;
         height: 45px;
         border-radius: 50%;
@@ -24,27 +25,21 @@
     }
 
     &__bubble--active {
-        color: $text-color;
-        font-weight: $fw-bold;
-        transition: color 0.3s ease-in, background-color 0.3s ease-in;
+        color: var(--text-color-grey);
+        font-weight: var(--fw-bold);
+        transition: color 0.2s ease-in, background-color 0.2s ease-in;
 
-        &:hover {
-            background-color: $bg-grey;
-            color: $text-accent-white;
-            cursor: pointer;
-        }
-
-        &:focus,
-        &:active {
-            background-color: $bg-accent;
-            color: $text-accent-white;
-        }
+		&:focus,
+    	&:active {
+			background-color: var(--bg-ratings-active);
+			color: var(--text-accent-white);
+		}
     }
 
     &__heading {
-        color: $text-accent-white;
-        font-size: rem(25px);
-        margin: em(20px, 25px) 0;
+        color: var(--text-accent-white);
+        font-size: toRem(25px);
+        margin: toEm(20px, 25px) 0;
     }
 
     &__rating {
@@ -61,9 +56,9 @@
     &__info {
         display: inline-block;
         margin-top: 2em;
-        background-color: $bg-transparent;
-        padding: em(10px, 15px) 1em;
-        color: $text-accent-orange;
-        border-radius: em(20px, 15px);
+        background-color: var(--bg-info);
+        padding: toEm(10px, 15px) 1em;
+        color: var(--text-accent-orange);
+        border-radius: toEm(20px, 15px);
     }
 }

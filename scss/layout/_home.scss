@@ -1,0 +1,22 @@
+@use "../base/variables" as *;
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+    padding: 80px 0;
+    font-size: toRem(15px);
+    width: 100%;
+    font-family: var(--ff-primary);
+    background-color: var(--bg-main);
+    color: var(--text-color-grey);
+}
+
+main {
+    margin-bottom: toRem(60px);
+}
+
+.hidden {
+    display: none;
+}

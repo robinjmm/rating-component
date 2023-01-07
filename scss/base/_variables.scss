@@ -1,37 +1,37 @@
-// Colors
-$text-color: hsl(217, 12%, 63%);
-$text-accent-white: hsl(0, 0%, 100%);
-$text-accent-orange: hsl(25, 97%, 53%);
+:root {
+	// Font Colors
+	--text-color-grey: hsl(217, 12%, 63%);
+	--text-accent-white: hsl(0, 0%, 100%);
+	--text-accent-orange: hsl(25, 97%, 53%);
 
+	// Background Colors
+	--bg-main: hsl(216, 12%, 8%);
+	--bg-card: hsl(215, 23%, 14%);
+	--bg-ratings: hsla(216, 12%, 54%, 0.1);
+	--bg-ratings-hover: hsl(216, 12%, 54%);
+	--bg-ratings-active: hsl(25, 97%, 53%);
+	--bg-button: hsl(25, 97%, 53%);
+	--bg-button-hover: hsl(0, 0%, 100%);
+	--bg-info: hsla(216, 12%, 54%, 0.1);
 
-$bg-main: hsl(216, 12%, 8%);
-$bg-card: hsl(215, 23%, 14%);
-$bg-grey: hsl(216, 12%, 54%);
-$bg-accent: hsl(25, 97%, 53%);
-$bg-white: hsl(0, 0%, 100%);
+	// Font Families
+	--ff-primary: 'Overpass', sans-serif;
 
-$bg-transparent: hsla(216, 12%, 54%, 0.1);
-
-
-// Fonts
-$base-font-size: 16px;
-$ff-primary: 'Overpass', sans-serif;
-
-
-$fw-normal: 400;
-$fw-bold: 700;
-
+	// Font Weights
+	--fw-normal: 400;
+	--fw-bold: 700;
+}
 
 // Functions
-@function rem($value) {
-    $remValue: calc(($value / $base-font-size) * 1rem);
+@function toRem($value) {
+    $remValue: calc(($value / 16px) * 1rem);
     @return $remValue;
 }
 
 
 // $value is the desired size
 // $base is font-size of the parent
-@function em($value, $base) {
+@function toEm($value, $base) {
     $emValue: calc(($value / $base) * 1em);
     @return $emValue;
 }

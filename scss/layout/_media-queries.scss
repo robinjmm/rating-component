@@ -1,0 +1,32 @@
+@use "../base/variables" as *;
+
+@media (max-width: 320px) {
+	.card {
+		width: 300px;
+		padding: toEm(30px, 15px) toEm(20px, 15px);
+	}
+}
+
+@media (min-width: 768px) {
+	.card {
+		width: 400px;
+		padding-right: toEm(30px, 15px);
+		padding-left: toEm(30px, 15px);
+	}
+}
+
+@media (min-width: 1200px) {
+	.card__bubble:hover {
+		background-color: var(--bg-ratings-hover);
+		color: var(--text-accent-white);
+		cursor: pointer;
+	}
+
+	.button:hover,
+    .button:focus,
+    .button:active {
+		cursor: pointer;
+		background-color: var(--bg-button-hover);
+		color: var(--text-accent-orange);
+	}
+}
