@@ -1,13 +1,13 @@
 @use "../base/variables" as *;
 
-@media (max-width: 320px) {
+@media (max-width: 20rem) {
 	.card {
 		width: 300px;
 		padding: toEm(30px, 15px) toEm(20px, 15px);
 	}
 }
 
-@media (min-width: 768px) {
+@media (min-width: 48rem) {
 	.card {
 		width: 400px;
 		padding-right: toEm(30px, 15px);
@@ -15,7 +15,7 @@
 	}
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 64rem) {
 	.card__bubble:hover {
 		background-color: var(--bg-ratings-hover);
 		color: var(--text-accent-white);
